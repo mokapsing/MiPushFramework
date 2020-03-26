@@ -67,7 +67,10 @@ public class MiPushEnhanceHook implements IXposedHookLoadPackage {
                 "com.topjohnwu.magisk",
                 // Xposed
                 "org.meowcat.edxposed.manager",
-                "de.robv.android.xposed.installer"};
+                "de.robv.android.xposed.installer",
+                // Rikka apps
+                "rikka.appops",
+                "moe.shizuku.redirectstorage"};
         blackList.addAll(Arrays.asList(blackApps));
     }
 
