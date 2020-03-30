@@ -42,4 +42,4 @@ deploy:
     - "app/build/outputs/apk/release/manager.apk"
     - "push/build/outputs/apk/release/xmsf_service.apk"
   on:
-    repo: MiPushFramework/MiPushFramework
+    repo: mokapsing/MiPushFramework
